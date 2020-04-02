@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.title {
+  background-color: dimgray;
+  color: #eee;
+}
+
+.subTitle {
+  background-color: orangered;
+  color: #fff;
+}
