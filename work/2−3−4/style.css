@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSSの優先順位を確認する */
+p {
+  color: black;
+}
+
+.red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}

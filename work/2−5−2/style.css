@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* ボックスモデルのサイズと余白のサイズを指定 */
+div {
+  background-color: #fff0de;
+}

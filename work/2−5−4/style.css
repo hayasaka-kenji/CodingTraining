@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* よくあるサイトのレイアウトを組み立ててみる */
+header {
+  background-color: #deffd8;
+}
+
+main {
+  background-color: #ffded8;
+}
+
+aside {
+  background-color: #ded8ff;
+}
+
+footer {
+  background-color: #d8bfd8;
+}
