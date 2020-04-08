@@ -1,11 +1,18 @@
 @charset "UTF-8";
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .title {
   background-color: dimgray;
   color: #eee;
+  padding-left: 0.4em;
 }
 
 .subTitle {
   background-color: orangered;
   color: #fff;
+  padding-left: 0.4em;
 }

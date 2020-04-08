@@ -9,16 +9,13 @@ div {
   background-color: #deffd8;
   width: 100px;
   height: 100px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
 }
 
 .item2 {
   background-color: #ffded8;
-  width: 100px;
-  height: 100px;
-}
-
-.item3 {
-  background-color: #ded8ff;
   width: 150px;
   height: 150px;
 }
