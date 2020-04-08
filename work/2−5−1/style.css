@@ -1,5 +1,5 @@
 @charset "utf-8";
-span {
-    color: #00f;
-    margin: 10px;
+/* ボックスモデルのサイズと余白のサイズを指定 */
+div {
+  background-color: #fff0de;
 }
