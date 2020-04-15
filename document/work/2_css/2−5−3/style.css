@@ -1,9 +1,9 @@
 @charset "utf-8";
 /* 段組みのレイアウト（display: flex） */
 
-.box {
+/* .box {
   display: flex;
-}
+} */
 
 .item {
   width: 100px;
