@@ -1,5 +1,9 @@
 @charset "utf-8";
-/* メディアクエリ */
+/* 段組みのレイアウト（display: flex） */
+
+/* .box {
+  display: flex;
+} */
 
 .item {
   width: 100px;
@@ -8,14 +12,3 @@
   margin: 10px;
   background-color: #eee;
 }
-
-@media screen and (min-width: 640px) {
-}
-
-/* @supports (display: flex) {
-  @media screen and (min-width: 640px) {
-    .box {
-      display: flex;
-    }
-  }
-} */
