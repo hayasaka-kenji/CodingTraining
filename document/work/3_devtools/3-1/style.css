@@ -1,6 +1,5 @@
 @charset "UTF-8";
 .container {
-  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,4 +14,23 @@
   background-color: orangered;
   color: #fff;
   padding-left: 0.4em;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+}
+
+@media screen and (min-width:481px) and ( max-width:1023px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 800px;
+  }
 }
