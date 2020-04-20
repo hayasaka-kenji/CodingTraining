@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フォーム</title>
+</head>
+<body>
+  <h1>登録フォーム</h1>
+  <form action="form.php" method="post">
+    <!-- labelで囲みたい場合は以下のようにする -->
+    <!-- <label>お名前 <input type="text" name="name"></label> -->
+    <dl>
+      <dt><label for="name">名前</label></dt>
+      <dd>
+        <input type="text" name="name" id="name">
+      </dd>
+      <dt>性別</dt>
+      <dd>
+        <input type="radio" name="gender" value="man">男
+        <input type="radio" name="gender" value="woman">女
+        <input type="radio" name="gender" value="other">その他
+      </dd>
+      <dt>プロフィール画像</dt>
+      <dd>
+        <input type="file" name="image">
+      </dd>
+      <dt>血液型</dt>
+      <dd>
+        <select name="blood-type">
+          <option hidden>回答してください</option>
+          <option value="a">A型</option>
+          <option value="b">B型</option>
+          <option value="o">O型</option>
+          <option value="ab">AB型</option>
+          <option value="other">回答しない</option>
+        </select>
+      </dd>
+      <dt>コメント</dt>
+      <dd>
+        <textarea name="comment" cols="30" rows="5" placeholder="コメントを入力してください"></textarea>
+      </dd>
+      <!-- IE, Firefox は非対応なのでselect > optionで対応することが多い -->
+      <!-- 
+        <dt>生年月日</dt>
+        <dd><input type="date" name="date" value="2018-07-22" min="2018-01-01" max="2018-12-31"></dd> 
+      -->
+    </dl>
+    <input type="submit" value="送信する">
+    <input type="reset" value="リセット">
+    <!-- button要素で対応可能 -->
+    <!-- <button type="submit">送信する</button> -->
+  </form>
+</body>
+</html>
