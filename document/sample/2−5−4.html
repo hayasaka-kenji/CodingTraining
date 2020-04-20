@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイトのレイアウトを組み立ててみる</title>
+  <style>
+    header, main, aside, footer {
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #deffd8;
+      height: 200px;
+    }
+
+    main {
+      background-color: #ffded8;
+      height: 400px;
+      width: 70%;
+    }
+
+    aside {
+      background-color: #ded8ff;
+      height: 400px;
+      width: 30%;
+    }
+
+    footer {
+      background-color: #d8bfd8;
+      height: 100px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .box {
+      display: flex;
+    }
+
+    @media screen and (max-width: 600px) {
+      .box {
+        flex-direction: column;
+      }
+
+      main {
+        width: 100%;
+      }
+
+      aside {
+        width: 100%;
+      }
+    }
+
+    /* 
+    @supports (display: flex) {
+      .box {
+        color: red;
+      }
+    } */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>ヘッダー</header>
+    <div class="box">
+      <main>メイン</main>
+      <aside>サブエリア</aside>
+    </div>
+    <footer>フッター</footer>
+  </div>
+</body>
+</html>
