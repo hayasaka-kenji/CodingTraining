@@ -1,6 +1,6 @@
 # 新卒向けコーディング研修 HTML/CSS講座
 - [webサイト制作の基本](document/00.www.md)  
-    HTML/CSS研修をやる前にwebサイト制作の基本を学びます。
+    HTML/CSSを学ぶ前にwebサイト制作の基本を学びます。
 - [HTMLについて](document/01.html.md)  
     HTML5について学びます。
 - [CSSについて](document/02.css.md)  
